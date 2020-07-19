@@ -17,7 +17,7 @@
       <div id="canvas">
         <p v-on:mousemove="updateYX">{{x}},{{y}}</p>
       </div>
-      <a v-on:click="click" href="https://www.google.com"></a>
+      <a v-on:click.prevent="click" href="https://www.google.com"></a>
     </div>
 
     <script src="app.js"></script>
